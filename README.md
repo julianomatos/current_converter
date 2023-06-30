@@ -1,39 +1,19 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Conversor de Moedas
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+O pacote current_converter é uma biblioteca que permite converter valores em reais (moeda brasileira) para as moedas mais usadas no mundo. Ele fornece métodos para realizar conversões monetárias com base em taxas de câmbio atualizadas.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Principais características do pacote:
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Conversão de valor em reais para várias moedas: O pacote oferece métodos para converter valores em reais para dólares americanos (USD), euros (EUR), libras esterlinas (GBP), ienes japoneses (JPY), pesos argentinos (ARS) e outras moedas populares.
 
-## Features
+Utilização de taxas de câmbio atualizadas: Os métodos de conversão fazem uso de taxas de câmbio em tempo real obtidas de uma API de terceiros. Isso garante que as conversões sejam baseadas em informações precisas e atualizadas.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Simplicidade de uso: A biblioteca é projetada de forma simples e intuitiva, permitindo que os usuários realizem conversões monetárias facilmente, fornecendo apenas o valor em reais a ser convertido.
 
-## Getting started
+Suporte a chamadas assíncronas: Os métodos de conversão são assíncronos, o que permite realizar chamadas a APIs externas para obter as taxas de câmbio sem bloquear a execução do código.
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Informações Adicionais
 
-## Usage
+Em resumo, o pacote current_converter é uma solução prática para realizar conversões monetárias entre a moeda brasileira (real) e várias moedas estrangeiras com base em taxas de câmbio atualizadas.
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
 
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
